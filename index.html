@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Playground - JavaScript 101</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <p style="margin-top: 20vh; text-align: center; font: normal 24px monospace;">
+      List of current best drivers in Formula One! 🏎️
+    </p>
+    <div class="driver-list">
+      <div class="driver" id="mercedes">
+        <div class="card" data-first-name="Lewis">
+          <p class="grey">Hamilton</p>
+          <p class="noshow team grey">Mercedes</p>
+          <img style="width" src="https://cdn130.picsart.com/305139788022201.jpg?type=webp&to=crop&r=256" alt="mercedes">
+        </div>
+      </div>
+
+      <div class="driver" id="ferrari">
+        <div class="card" data-first-name="Charles">
+          <p class="red">LeClerc</p>
+          <p class="noshow team red">Ferrari</p>
+          <img id="ferrari" src="https://a.wattpad.com/useravatar/CharlesleclercBigFan.256.790122.jpg" alt="ferrari">
+        </div>
+      </div>
+
+      <div class="driver" id="redbull" >
+        <div class="card" data-first-name="Max">
+          <p class="blue">Verstappen</p>
+          <p class="noshow team blue">Red Bull</p>
+          <img id="blue" src="https://media.nu.nl/m/z1zx5t3az18g_sqr256.jpg/teleurgestelde-verstappen-heeft-begrip-voor-afgelasten-gp-australie.jpg" alt="redbull">
+        </div>
+      </div>
+
+      <div class="driver" id="mclaren">
+        <div class="card" data-first-name="Carlos">
+          <p class="orange">Sainz</p>
+          <p class="noshow team orange">Mclaren</p>
+          <img src="https://res.cloudinary.com/dlatcqlhm/image/upload/v1585595609/public-folder/4f25017f1b75060d94141ecbcc07b5.jpg" alt="mclaren">
+        </div>
+      </div>
+
+      <div class="driver noshow" id="renault">
+        <div class="card" data-first-name="Daniel">
+          <p class="black">Ricciardo</p>
+          <p class="noshow team black">Renault</p>
+          <img src="https://cdn140.picsart.com/314404945269201.jpg?type=webp&to=crop&r=256">
+        </div>
+      </div>
+    </div>
+
+    <div class="input">
+      <h3>Add a new driver:</h3>
+      <input name="driver" id="driver-name" value="Ricciardo" />
+      <button id="add">Add driver</button>
+    </div>
+
+    <div class="input">
+      <h3>Click here to hide all drivers</h3>
+      <button id="hide">Hide drivers</button>
+    </div>
+
+
+    <script src="main.js"></script>
+  </body>
+</html>
